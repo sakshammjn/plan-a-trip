@@ -1,0 +1,124 @@
+/* write your css here */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #3F418D;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    color: black;
+    font-size: 3rem;
+    margin: 6vh;
+    margin-top:2vh;
+    border: 7px dashed #CADCFC;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #CADCFC;
+}
+
+.image {
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius:10px;
+}
+
+.tour-info {
+    margin: 20px 5px;
+}
+
+.tour-price {
+    font-size: 1.3rem;
+    color: #3F418D;
+}
+
+.tour-name {
+    font-size: 1.5rem;
+}
+
+.read-more {
+    color: #3F418D;
+    cursor: pointer;
+}
+
+.btn-interested {
+    all: unset;
+    padding: 0.5rem 5rem;
+    background-color: #FCF7F7;
+    border: 1px solid #9A0001;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-interested:hover {
+    background-color: #9A0001;
+    color: #FCF7F7;
+    transform: scale(1.05);
+}
+
+.refresh {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+}
+
+.btn-refresh {
+    all: unset;
+    padding: 0.5rem 5rem;
+    background-color: #FCF7F7;
+    border: 1px solid #9A0001;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-refresh:hover {
+    background-color: #9A0001;
+    color: #FCF7F7;
+    transform: scale(1.05);
+}
