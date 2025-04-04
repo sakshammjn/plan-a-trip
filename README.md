@@ -1,2 +1,2 @@
 # plan-a-trip
-first project using react
+my first project using react
