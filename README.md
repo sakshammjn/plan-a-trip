@@ -1,2 +1,2 @@
 # plan-a-trip
-my first project using react
+add or remove itinerary based on your preference 
